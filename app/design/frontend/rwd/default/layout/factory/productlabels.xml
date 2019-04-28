@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <catalog_category_default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/factory/productlabels.css</name>
+            </action>
+        </reference>
+        <reference name="product_list">
+            <action method="setTemplate">
+                <template>factory/catalog/product/list.phtml</template>
+            </action>
+        </reference>
+    </catalog_category_default>
+    <catalog_category_layered>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/factory/productlabels.css</name>
+            </action>
+        </reference>
+        <reference name="product_list">
+            <action method="setTemplate"><template>factory/catalog/product/list.phtml</template></action>
+        </reference>
+    </catalog_category_layered>
+</layout>
